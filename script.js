@@ -114,6 +114,7 @@ function saveTheme(isDark) {
 
 function renderTheme(isDark) {
   document.body.classList.toggle('dark-mode', isDark);
+  document.documentElement.classList.toggle('dark-mode', isDark);
 
   if (!themeToggleBtn) return;
 
