@@ -15,7 +15,6 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="modal.css" />
 
   <!-- Google Fonts -->
   <link
@@ -33,30 +32,20 @@
   <script>
     try {
       if (localStorage.getItem("theme") === "dark") {
-        document.documentElement.classList.add("dark-preload");
+        document.documentElement.classList.add("dark-mode");
       }
     } catch (error) {
       // Continue with default theme.
     }
   </script>
-
-  <style>
-    html.dark-preload body {
-      background-color: #080808;
-    }
-  </style>
 </head>
 
 <body data-page="certificates">
 
   <!-- Apply saved theme to body -->
   <script>
-    try {
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-mode");
-      }
-    } catch (error) {
-      // Theme storage is optional.
+    if (document.documentElement.classList.contains("dark-mode")) {
+      document.body.classList.add("dark-mode");
     }
   </script>
 
@@ -293,7 +282,7 @@
         <button
           class="view-btn"
           type="button"
-          data-img="pictures/Pyrthon_Tkinter.png"
+          data-img="pictures/Python_Tkinter.png"
           aria-label="View Python Tkinter certificate"
         >
           <i class="fas fa-eye" aria-hidden="true"></i>

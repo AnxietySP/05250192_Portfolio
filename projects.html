@@ -14,18 +14,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Apply saved theme before rendering -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    } catch (error) {
+      // Continue with the default theme if storage is unavailable.
+    }
+  </script>
 </head>
 
 <body data-page="projects">
 
   <!-- Apply saved theme -->
   <script>
-    try {
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-mode");
-      }
-    } catch (error) {
-      console.warn("Theme preference could not be loaded.");
+    if (document.documentElement.classList.contains("dark-mode")) {
+      document.body.classList.add("dark-mode");
     }
   </script>
 

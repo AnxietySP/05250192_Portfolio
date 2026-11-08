@@ -32,31 +32,20 @@
   <script>
     try {
       if (localStorage.getItem("theme") === "dark") {
-        document.documentElement.classList.add("dark-preload");
+        document.documentElement.classList.add("dark-mode");
       }
     } catch (error) {
       // Continue with the default theme if storage is unavailable.
     }
   </script>
-
-  <style>
-    /* Prevent theme flash while the page initializes */
-    html.dark-preload body {
-      background-color: #080808;
-    }
-  </style>
 </head>
 
 <body data-page="about">
 
   <!-- Apply saved theme to body -->
   <script>
-    try {
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-mode");
-      }
-    } catch (error) {
-      // Theme storage is optional.
+    if (document.documentElement.classList.contains("dark-mode")) {
+      document.body.classList.add("dark-mode");
     }
   </script>
 
