@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Explore the technical skills of Sonam Phuntsho, including web development, Python, networking, server administration, and cybersecurity." />
+  <meta name="theme-color" content="#1b2416" />
+
+  <title>Skills — Sonam Phuntsho</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body data-page="skills">
+
+  <!-- Apply saved theme -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    } catch (error) {
+      console.warn("Theme preference could not be loaded.");
+    }
+  </script>
+
+  <!-- Custom cursor and background -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+  <div class="grain"></div>
+
+  <!-- Header -->
+  <header class="nav">
+    <a href="index.html" class="brand" aria-label="Sonam Phuntsho Home">
+      SP<span>.</span>
+    </a>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle dark mode"
+      title="Toggle theme"
+    >
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <!-- Navigation Sidebar -->
+  <nav class="sidebar-nav" aria-label="Main navigation">
+
+    <a href="index.html"
+       class="nav-icon"
+       aria-label="Home"
+       data-label="Home">
+      <i class="fas fa-house" aria-hidden="true"></i>
+    </a>
+
+    <a href="about.html"
+       class="nav-icon"
+       aria-label="About"
+       data-label="About">
+      <i class="far fa-user" aria-hidden="true"></i>
+    </a>
+
+    <a href="skills.html"
+       class="nav-icon active"
+       aria-label="Skills"
+       aria-current="page"
+       data-label="Skills">
+      <i class="fas fa-network-wired" aria-hidden="true"></i>
+    </a>
+
+    <a href="certificates.html"
+       class="nav-icon"
+       aria-label="Certificates"
+       data-label="Certificates">
+      <i class="fas fa-award" aria-hidden="true"></i>
+    </a>
+
+    <a href="projects.html"
+       class="nav-icon"
+       aria-label="Projects"
+       data-label="Projects">
+      <i class="far fa-folder-open" aria-hidden="true"></i>
+    </a>
+
+    <a href="contact.html"
+       class="nav-icon"
+       aria-label="Contact"
+       data-label="Contact">
+      <i class="far fa-envelope" aria-hidden="true"></i>
+    </a>
+
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+
+    <div class="skills-container">
+
+      <!-- Skills Header -->
+      <div class="skills-header">
+
+        <div class="skills-eyebrow">
+          <span>— 02 · SKILLS</span>
+          <span class="badge-profile">TECHNICAL PROFILE</span>
+        </div>
+
+        <h2 class="skills-title">Things I'm learning.</h2>
+
+        <p class="skills-subtitle">
+          Technologies, tools, and technical areas I'm exploring
+          as I continue growing in the world of IT.
+        </p>
+
+      </div>
+
+      <!-- 01: WEB DEVELOPMENT -->
+      <div class="skills-section">
+
+        <h3 class="section-heading">01 — WEB DEVELOPMENT</h3>
+
+        <div class="skills-grid-3col">
+
+          <div class="skill-box">
+            <i class="fas fa-code" aria-hidden="true"></i>
+            <h4>HTML & CSS</h4>
+            <p class="skill-desc">Structure and styling</p>
+            <p class="skill-tag">Frontend Development</p>
+          </div>
+
+          <div class="skill-box">
+            <i class="fab fa-js" aria-hidden="true"></i>
+            <h4>JavaScript</h4>
+            <p class="skill-desc">Interactive web experiences</p>
+            <p class="skill-tag">Frontend Development</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 02: PROGRAMMING -->
+      <div class="skills-section">
+
+        <h3 class="section-heading">02 — PROGRAMMING</h3>
+
+        <div class="skills-grid-3col">
+
+          <div class="skill-box">
+            <i class="fab fa-python" aria-hidden="true"></i>
+            <h4>Python</h4>
+            <p class="skill-desc">Programming and automation</p>
+            <p class="skill-tag">Backend & Scripting</p>
+          </div>
+
+          <div class="skill-box">
+            <i class="fas fa-window-maximize" aria-hidden="true"></i>
+            <h4>Python Tkinter</h4>
+            <p class="skill-desc">Building desktop applications</p>
+            <p class="skill-tag">GUI Development</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 03: NETWORKING & SYSTEMS -->
+      <div class="skills-section">
+
+        <h3 class="section-heading">03 — NETWORKING & SYSTEMS</h3>
+
+        <div class="skills-list-box">
+
+          <!-- Networking -->
+          <div class="skill-list-item">
+
+            <div class="sli-header">
+
+              <div class="sli-title-wrap">
+                <i class="fas fa-network-wired" aria-hidden="true"></i>
+                <h4>Networking</h4>
+              </div>
+
+              <span class="badge-key">KEY INTEREST</span>
+
+            </div>
+
+            <p class="skill-desc">
+              TCP/IP · IPv4 & IPv6 · Subnetting · Routing &
+              Switching · Cisco Packet Tracer
+            </p>
+
+          </div>
+
+          <div class="sli-divider"></div>
+
+          <!-- Linux Server Administration -->
+          <div class="skill-list-item">
+
+            <div class="sli-header">
+
+              <div class="sli-title-wrap">
+                <i class="fas fa-server" aria-hidden="true"></i>
+                <h4>Linux Server Administration</h4>
+              </div>
+
+            </div>
+
+            <p class="skill-desc">
+              Linux commands · File permissions · Server
+              configuration · Basic system administration
+            </p>
+
+          </div>
+
+          <div class="sli-divider"></div>
+
+          <!-- Directory Services -->
+          <div class="skill-list-item">
+
+            <div class="sli-header">
+
+              <div class="sli-title-wrap">
+                <i class="fas fa-folder-tree" aria-hidden="true"></i>
+                <h4>Directory Services</h4>
+              </div>
+
+            </div>
+
+            <p class="skill-desc">
+              Windows Server Administration · Active Directory ·
+              User & Group Management · Directory Management
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 04: SECURITY -->
+      <div class="skills-section">
+
+        <h3 class="section-heading">04 — SECURITY</h3>
+
+        <div class="skills-list-box">
+
+          <div class="skill-list-item">
+
+            <div class="sli-header">
+
+              <div class="sli-title-wrap">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <h4>Cybersecurity / CTF</h4>
+              </div>
+
+            </div>
+
+            <p class="skill-desc">
+              Security fundamentals · Network security ·
+              Problem solving · Capture The Flag (CTF) practice
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Closing Note -->
+      <div class="skills-footer">
+        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+        Always learning. Always building.
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Shared JavaScript -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3325"/><stop offset="1" stop-color="#151c11"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d99455" stop-opacity="0.3"/><stop offset="1" stop-color="#d99455" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6b57e"/><stop offset="1" stop-color="#8a4d1f"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#8a9a6a" opacity="0.25"/></pattern>
+  </defs>
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <rect width="800" height="470" fill="url(#dots)"/>
+  <circle cx="400" cy="235" r="260" fill="url(#glow)"/>
+
+  <!-- API network nodes -->
+  <g stroke="#b87333" stroke-opacity="0.45" stroke-width="2" fill="none">
+    <path d="M120 120 L200 200"/><path d="M120 350 L200 280"/>
+    <path d="M680 120 L600 200"/><path d="M680 350 L600 280"/>
+  </g>
+  <g fill="#1b2416" stroke="url(#cu)" stroke-width="3">
+    <circle cx="120" cy="120" r="16"/><circle cx="120" cy="350" r="16"/>
+    <circle cx="680" cy="120" r="16"/><circle cx="680" cy="350" r="16"/>
+  </g>
+  <g fill="#d99455"><circle cx="120" cy="120" r="5"/><circle cx="120" cy="350" r="5"/><circle cx="680" cy="120" r="5"/><circle cx="680" cy="350" r="5"/></g>
+
+  <!-- terminal window -->
+  <rect x="190" y="95" width="420" height="280" rx="14" fill="#10150d" stroke="url(#cu)" stroke-width="3"/>
+  <path d="M190 109 a14 14 0 0 1 14 -14 H596 a14 14 0 0 1 14 14 V135 H190 Z" fill="#232e1c"/>
+  <circle cx="214" cy="115" r="6" fill="#b87333"/><circle cx="236" cy="115" r="6" fill="#8a9a6a"/><circle cx="258" cy="115" r="6" fill="#5c6b3f"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="13" fill="#b8ae9a">task-api / routes</text>
+
+  <g font-family="Menlo, Consolas, monospace" font-size="19">
+    <text x="218" y="178" fill="#8a9a6a">GET</text><text x="272" y="178" fill="#ede4d3">/tasks</text><text x="520" y="178" fill="#d99455">200</text>
+    <text x="218" y="218" fill="#d99455">POST</text><text x="282" y="218" fill="#ede4d3">/tasks</text><text x="520" y="218" fill="#d99455">201</text>
+    <text x="218" y="258" fill="#8a9a6a">PUT</text><text x="272" y="258" fill="#ede4d3">/tasks/:id</text><text x="520" y="258" fill="#d99455">200</text>
+    <text x="218" y="298" fill="#c07a3a">DELETE</text><text x="304" y="298" fill="#ede4d3">/tasks/:id</text><text x="520" y="298" fill="#d99455">204</text>
+    <text x="218" y="346" fill="#b87333">{ }</text><rect x="256" y="333" width="12" height="20" fill="#d99455" opacity="0.85"/>
+  </g>
+</svg>

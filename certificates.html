@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Explore the certificates and achievements earned by Sonam Phuntsho in cybersecurity, hackathons, web development, Linux administration and Python."
+  />
+
+  <meta name="theme-color" content="#1b2416" />
+
+  <title>Certificates — Sonam Phuntsho</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="modal.css" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Apply saved theme before page content -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-preload");
+      }
+    } catch (error) {
+      // Continue with default theme.
+    }
+  </script>
+
+  <style>
+    html.dark-preload body {
+      background-color: #080808;
+    }
+  </style>
+</head>
+
+<body data-page="certificates">
+
+  <!-- Apply saved theme to body -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    } catch (error) {
+      // Theme storage is optional.
+    }
+  </script>
+
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Background Texture -->
+  <div class="grain"></div>
+
+
+  <!-- =====================================
+       FIXED HEADER
+  ====================================== -->
+
+  <header class="nav">
+
+    <a
+      href="index.html"
+      class="brand"
+      aria-label="Sonam Phuntsho home"
+    >
+      SP<span>.</span>
+    </a>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Switch to dark mode"
+      aria-pressed="false"
+    >
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
+
+  </header>
+
+
+  <!-- =====================================
+       ICON NAVIGATION
+  ====================================== -->
+
+  <nav class="sidebar-nav" aria-label="Main navigation">
+
+    <a
+      href="index.html"
+      class="nav-icon"
+      aria-label="Home"
+      data-label="Home"
+    >
+      <i class="fas fa-house" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="about.html"
+      class="nav-icon"
+      aria-label="About"
+      data-label="About"
+    >
+      <i class="far fa-user" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="skills.html"
+      class="nav-icon"
+      aria-label="Skills"
+      data-label="Skills"
+    >
+      <i class="fas fa-network-wired" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="certificates.html"
+      class="nav-icon active"
+      aria-label="Certificates"
+      aria-current="page"
+      data-label="Certificates"
+    >
+      <i class="fas fa-award" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="projects.html"
+      class="nav-icon"
+      aria-label="Projects"
+      data-label="Projects"
+    >
+      <i class="far fa-folder-open" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="contact.html"
+      class="nav-icon"
+      aria-label="Contact"
+      data-label="Contact"
+    >
+      <i class="far fa-envelope" aria-hidden="true"></i>
+    </a>
+
+  </nav>
+
+
+  <!-- =====================================
+       MAIN CONTENT
+  ====================================== -->
+
+  <main class="page">
+
+    <p class="eyebrow">— 03 · Certificates</p>
+
+    <h2 class="page-title">Earned, not given.</h2>
+
+    <p class="lede" style="margin-bottom: 3rem;">
+      Every certificate represents a new skill, challenge,
+      and step forward. Click below to explore my achievements.
+    </p>
+
+
+    <!-- =====================================
+         CERTIFICATE GRID
+    ====================================== -->
+
+    <section class="cert-grid" aria-label="My certificates">
+
+
+      <!-- CTF -->
+      <article class="cert">
+
+        <h3>Catch The Flag (CTF)</h3>
+
+        <p>BtCIRT</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/BtCIRT.jpeg"
+          aria-label="View Catch The Flag certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+      <!-- Youth Tech-Novation -->
+      <article class="cert">
+
+        <h3>Youth Tech-Novation</h3>
+
+        <p>Jigme Namgyel Engineering College</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/College_Hackathon.jpeg"
+          aria-label="View Youth Tech-Novation certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+      <!-- National Hackathon -->
+      <article class="cert">
+
+        <h3>National Hackathon</h3>
+
+        <p>Ministry of Education and Skills Development</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/National_Hackathon.jpeg"
+          aria-label="View National Hackathon certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+      <!-- Web Development -->
+      <article class="cert">
+
+        <h3>Master in Web Development</h3>
+
+        <p>Coursera</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/Master_Full_Stack_Web_Development.png"
+          aria-label="View Web Development certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+      <!-- Linux -->
+      <article class="cert">
+
+        <h3>Linux Server Administration</h3>
+
+        <p>Coursera</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/Linux_Server_Admin.png"
+          aria-label="View Linux Server Administration certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+      <!-- Python Tkinter -->
+      <article class="cert">
+
+        <h3>Python Tkinter</h3>
+
+        <p>Coursera</p>
+
+        <button
+          class="view-btn"
+          type="button"
+          data-img="pictures/Pyrthon_Tkinter.png"
+          aria-label="View Python Tkinter certificate"
+        >
+          <i class="fas fa-eye" aria-hidden="true"></i>
+          View Certificate
+        </button>
+
+      </article>
+
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================
+       CERTIFICATE MODAL
+  ====================================== -->
+
+  <div
+    id="certificateModal"
+    class="modal"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Certificate preview"
+    aria-hidden="true"
+  >
+
+    <button
+      class="close-modal"
+      type="button"
+      aria-label="Close certificate preview"
+    >
+      &times;
+    </button>
+
+    <img
+      class="modal-content"
+      id="fullCertificateImg"
+      alt="Full certificate preview"
+    />
+
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>

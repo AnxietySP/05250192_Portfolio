@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3325"/><stop offset="1" stop-color="#151c11"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d99455" stop-opacity="0.3"/><stop offset="1" stop-color="#d99455" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6b57e"/><stop offset="1" stop-color="#8a4d1f"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#8a9a6a" opacity="0.25"/></pattern>
+  </defs>
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <rect width="800" height="470" fill="url(#dots)"/>
+  <circle cx="400" cy="235" r="260" fill="url(#glow)"/>
+
+  <!-- calendar -->
+  <rect x="250" y="90" width="300" height="290" rx="18" fill="#1b2416" stroke="url(#cu)" stroke-width="3"/>
+  <path d="M250 108 a18 18 0 0 1 18 -18 H532 a18 18 0 0 1 18 18 V150 H250 Z" fill="url(#cu)"/>
+  <rect x="300" y="72" width="10" height="36" rx="5" fill="#ede4d3"/>
+  <rect x="490" y="72" width="10" height="36" rx="5" fill="#ede4d3"/>
+  <text x="400" y="132" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1a0f05" font-weight="bold">Events Hub</text>
+
+  <!-- day dots -->
+  <g fill="#8a9a6a" opacity="0.55">
+    <circle cx="290" cy="188" r="8"/><circle cx="335" cy="188" r="8"/><circle cx="380" cy="188" r="8"/><circle cx="425" cy="188" r="8"/><circle cx="470" cy="188" r="8"/><circle cx="515" cy="188" r="8"/>
+    <circle cx="290" cy="230" r="8"/><circle cx="335" cy="230" r="8"/><circle cx="425" cy="230" r="8"/><circle cx="470" cy="230" r="8"/><circle cx="515" cy="230" r="8"/>
+    <circle cx="290" cy="272" r="8"/><circle cx="380" cy="272" r="8"/><circle cx="425" cy="272" r="8"/><circle cx="515" cy="272" r="8"/>
+    <circle cx="290" cy="314" r="8"/><circle cx="335" cy="314" r="8"/><circle cx="380" cy="314" r="8"/><circle cx="470" cy="314" r="8"/>
+  </g>
+  <!-- highlighted events -->
+  <circle cx="380" cy="230" r="15" fill="url(#cu)"/>
+  <circle cx="335" cy="272" r="15" fill="url(#cu)"/>
+  <circle cx="470" cy="272" r="15" fill="none" stroke="#d99455" stroke-width="3"/>
+  <circle cx="425" cy="314" r="15" fill="url(#cu)"/>
+  <circle cx="515" cy="314" r="8" fill="#8a9a6a" opacity="0.55"/>
+
+  <!-- floating event chips -->
+  <rect x="82" y="150" width="130" height="44" rx="22" fill="#232e1c" stroke="#b87333" stroke-opacity="0.6"/>
+  <circle cx="108" cy="172" r="7" fill="#d99455"/><rect x="124" y="166" width="70" height="12" rx="6" fill="#b8ae9a" opacity="0.6"/>
+  <rect x="590" y="240" width="140" height="44" rx="22" fill="#232e1c" stroke="#b87333" stroke-opacity="0.6"/>
+  <circle cx="616" cy="262" r="7" fill="#8a9a6a"/><rect x="632" y="256" width="80" height="12" rx="6" fill="#b8ae9a" opacity="0.6"/>
+
+  <!-- pin -->
+  <path d="M640 150 c-22 0 -34 16 -34 32 c0 24 34 56 34 56 s34 -32 34 -56 c0 -16 -12 -32 -34 -32 Z" fill="url(#cu)"/>
+  <circle cx="640" cy="182" r="11" fill="#1b2416"/>
+</svg>

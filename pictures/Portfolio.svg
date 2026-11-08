@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3325"/><stop offset="1" stop-color="#151c11"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d99455" stop-opacity="0.3"/><stop offset="1" stop-color="#d99455" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6b57e"/><stop offset="1" stop-color="#8a4d1f"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#8a9a6a" opacity="0.25"/></pattern>
+  </defs>
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <rect width="800" height="470" fill="url(#dots)"/>
+  <circle cx="400" cy="235" r="260" fill="url(#glow)"/>
+
+  <!-- browser window -->
+  <rect x="170" y="85" width="460" height="300" rx="14" fill="#10150d" stroke="url(#cu)" stroke-width="3"/>
+  <path d="M170 99 a14 14 0 0 1 14 -14 H616 a14 14 0 0 1 14 14 V128 H170 Z" fill="#232e1c"/>
+  <circle cx="194" cy="107" r="6" fill="#b87333"/><circle cx="216" cy="107" r="6" fill="#8a9a6a"/><circle cx="238" cy="107" r="6" fill="#5c6b3f"/>
+  <rect x="270" y="98" width="260" height="18" rx="9" fill="#10150d"/>
+
+  <!-- profile ring -->
+  <circle cx="270" cy="230" r="52" fill="url(#cu)"/>
+  <circle cx="270" cy="230" r="46" fill="#1b2416"/>
+  <circle cx="270" cy="218" r="16" fill="#8a9a6a"/>
+  <path d="M238 262 c4 -22 20 -28 32 -28 s28 6 32 28 a46 46 0 0 1 -64 0 Z" fill="#8a9a6a"/>
+
+  <!-- name + role bars -->
+  <text x="350" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#ede4d3">Sonam</text>
+  <text x="350" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#d99455">Phuntsho</text>
+  <rect x="350" y="268" width="220" height="10" rx="5" fill="#b8ae9a" opacity="0.4"/>
+  <rect x="350" y="288" width="160" height="10" rx="5" fill="#b8ae9a" opacity="0.25"/>
+
+  <!-- skill chips -->
+  <g>
+    <rect x="210" y="325" width="82" height="30" rx="15" fill="none" stroke="#d99455" stroke-opacity="0.7"/>
+    <rect x="306" y="325" width="64" height="30" rx="15" fill="none" stroke="#d99455" stroke-opacity="0.7"/>
+    <rect x="384" y="325" width="110" height="30" rx="15" fill="none" stroke="#d99455" stroke-opacity="0.7"/>
+    <rect x="508" y="325" width="82" height="30" rx="15" fill="url(#cu)"/>
+    <g font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ede4d3">
+      <text x="251" y="345">HTML</text><text x="338" y="345">CSS</text><text x="439" y="345">JavaScript</text>
+      <text x="549" y="345" fill="#1a0f05" font-weight="bold">Resume</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Learn more about Sonam Phuntsho, a Computer Systems and Networks diploma student at Jigme Namgyel Engineering College."
+  />
+
+  <meta name="theme-color" content="#1b2416" />
+
+  <title>About — Sonam Phuntsho</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Apply saved theme before rendering -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-preload");
+      }
+    } catch (error) {
+      // Continue with the default theme if storage is unavailable.
+    }
+  </script>
+
+  <style>
+    /* Prevent theme flash while the page initializes */
+    html.dark-preload body {
+      background-color: #080808;
+    }
+  </style>
+</head>
+
+<body data-page="about">
+
+  <!-- Apply saved theme to body -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    } catch (error) {
+      // Theme storage is optional.
+    }
+  </script>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Background Texture -->
+  <div class="grain"></div>
+
+  <!-- Fixed Top Header -->
+  <header class="nav">
+
+    <a href="index.html" class="brand" aria-label="Sonam Phuntsho home">
+      SP<span>.</span>
+    </a>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Switch to dark mode"
+      aria-pressed="false"
+    >
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
+
+  </header>
+
+
+  <!-- Icon Navigation Sidebar -->
+  <nav class="sidebar-nav" aria-label="Main navigation">
+
+    <a
+      href="index.html"
+      class="nav-icon"
+      aria-label="Home"
+      data-label="Home"
+    >
+      <i class="fas fa-house" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="about.html"
+      class="nav-icon active"
+      aria-label="About"
+      aria-current="page"
+      data-label="About"
+    >
+      <i class="far fa-user" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="skills.html"
+      class="nav-icon"
+      aria-label="Skills"
+      data-label="Skills"
+    >
+      <i class="fas fa-network-wired" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="certificates.html"
+      class="nav-icon"
+      aria-label="Certificates"
+      data-label="Certificates"
+    >
+      <i class="fas fa-award" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="projects.html"
+      class="nav-icon"
+      aria-label="Projects"
+      data-label="Projects"
+    >
+      <i class="far fa-folder-open" aria-hidden="true"></i>
+    </a>
+
+    <a
+      href="contact.html"
+      class="nav-icon"
+      aria-label="Contact"
+      data-label="Contact"
+    >
+      <i class="far fa-envelope" aria-hidden="true"></i>
+    </a>
+
+  </nav>
+
+
+  <!-- Main Content -->
+  <main class="page">
+
+    <p class="eyebrow">— 01 · About</p>
+
+    <h2 class="page-title">About Me.</h2>
+
+
+    <div class="about-layout-top">
+
+
+      <!-- =====================================
+           MODERN QUICK FACTS
+      ====================================== -->
+
+      <section class="modern-quick-facts">
+
+        <div class="mqf-header">
+
+          <div>
+            <h3>A Little About Me</h3>
+            <p>QUICK FACTS · GET TO KNOW ME</p>
+          </div>
+
+          <span class="mqf-badge">PROFILE</span>
+
+        </div>
+
+
+        <div class="mqf-grid">
+
+
+          <!-- Education -->
+          <article class="mqf-card">
+
+            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+
+            <span class="mqf-label">EDUCATION</span>
+
+            <h4 class="mqf-value">JNEC</h4>
+
+            <p class="mqf-desc">Diploma student</p>
+
+          </article>
+
+
+          <!-- Specialization -->
+          <article class="mqf-card">
+
+            <i class="fas fa-project-diagram" aria-hidden="true"></i>
+
+            <span class="mqf-label">SPECIALIZATION</span>
+
+            <h4 class="mqf-value">Networking</h4>
+
+            <p class="mqf-desc">IT & Networks</p>
+
+          </article>
+
+
+          <!-- Leadership -->
+          <article class="mqf-card">
+
+            <i class="fas fa-users" aria-hidden="true"></i>
+
+            <span class="mqf-label">LEADERSHIP</span>
+
+            <h4 class="mqf-value">Class Representative</h4>
+
+            <p class="mqf-desc">2 semesters</p>
+
+          </article>
+
+
+          <!-- Availability -->
+          <article class="mqf-card">
+
+            <i class="fas fa-briefcase" aria-hidden="true"></i>
+
+            <span class="mqf-label">AVAILABILITY</span>
+
+            <h4 class="mqf-value">Open to Opportunities</h4>
+
+            <p class="mqf-desc">Ready to learn & grow</p>
+
+          </article>
+
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================
+           PROFILE PHOTO & INTRODUCTION
+      ====================================== -->
+
+      <section class="about-split">
+
+
+        <!-- Profile Photo -->
+        <div class="about-photo-col">
+
+          <div class="about-photo">
+
+            <img
+              src="pictures/profile.jpeg"
+              alt="Portrait of Sonam Phuntsho"
+              loading="lazy"
+            />
+
+          </div>
+
+        </div>
+
+
+        <!-- Introduction -->
+        <div class="about-text-col">
+
+          <p>
+            Hello! I'm <strong>Sonam Phuntsho</strong>, a Diploma student in
+            <strong>Computer Systems and Networks</strong> at
+            <strong>Jigme Namgyel Engineering College (JNEC)</strong>.
+            I have a strong passion for Information Technology,
+            particularly <em>Networking</em>, and I'm always curious
+            about how technology connects people and transforms the world.
+          </p>
+
+
+          <p>
+            Beyond academics, I've gained valuable experience in
+            leadership, teamwork, and collaboration through serving as a
+            <strong>Class Representative</strong> for two semesters
+            and participating in college projects and activities.
+            I'm passionate about learning new technologies, improving
+            my technical skills, and exploring opportunities in the IT field.
+          </p>
+
+
+          <!-- Personal Quote -->
+          <blockquote class="about-quote">
+            "Curious about networks, passionate about technology,
+            and always eager to learn."
+          </blockquote>
+
+        </div>
+
+      </section>
+
+
+    </div>
+
+  </main>
+
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>

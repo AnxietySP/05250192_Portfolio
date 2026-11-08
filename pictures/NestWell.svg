@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3325"/><stop offset="1" stop-color="#151c11"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d99455" stop-opacity="0.35"/><stop offset="1" stop-color="#d99455" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6b57e"/><stop offset="1" stop-color="#8a4d1f"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#8a9a6a" opacity="0.25"/></pattern>
+  </defs>
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <rect width="800" height="470" fill="url(#dots)"/>
+  <circle cx="400" cy="235" r="260" fill="url(#glow)"/>
+
+  <!-- soft rings -->
+  <circle cx="400" cy="235" r="190" fill="none" stroke="#b87333" stroke-opacity="0.25" stroke-dasharray="4 8"/>
+  <circle cx="400" cy="235" r="150" fill="none" stroke="#b87333" stroke-opacity="0.18"/>
+
+  <!-- house -->
+  <path d="M290 250 L400 150 L510 250 V335 a12 12 0 0 1 -12 12 H302 a12 12 0 0 1 -12 -12 Z" fill="#1b2416" stroke="url(#cu)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M265 258 L400 135 L535 258" fill="none" stroke="url(#cu)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- wellness pulse line -->
+  <path d="M318 285 H358 L374 252 L396 325 L414 270 L428 285 H482" fill="none" stroke="#8a9a6a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- leaf -->
+  <path d="M438 188 C470 170 500 178 506 205 C478 222 448 220 438 188 Z" fill="#5c6b3f" stroke="#8a9a6a" stroke-width="2"/>
+  <path d="M442 192 C462 192 484 198 500 208" fill="none" stroke="#c9d6a8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- heart -->
+  <path d="M400 232 c-10 -14 -30 -4 -22 12 c5 9 22 18 22 18 s17 -9 22 -18 c8 -16 -12 -26 -22 -12 Z" fill="url(#cu)"/>
+
+  <text x="400" y="408" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" fill="#ede4d3" opacity="0.9">NestWell.Bt</text>
+</svg>

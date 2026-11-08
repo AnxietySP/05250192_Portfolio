@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Explore projects developed by Sonam Phuntsho, a Computer System and Network student at JNEC." />
+  <meta name="theme-color" content="#1b2416" />
+
+  <title>Projects — Sonam Phuntsho</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body data-page="projects">
+
+  <!-- Apply saved theme -->
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    } catch (error) {
+      console.warn("Theme preference could not be loaded.");
+    }
+  </script>
+
+  <!-- Custom cursor and background -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+  <div class="grain"></div>
+
+  <!-- Header -->
+  <header class="nav">
+    <a href="index.html" class="brand" aria-label="Sonam Phuntsho Home">
+      SP<span>.</span>
+    </a>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle dark mode"
+      title="Toggle theme"
+    >
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <!-- Navigation Sidebar -->
+  <nav class="sidebar-nav" aria-label="Main navigation">
+
+    <a href="index.html"
+       class="nav-icon"
+       aria-label="Home"
+       data-label="Home">
+      <i class="fas fa-house" aria-hidden="true"></i>
+    </a>
+
+    <a href="about.html"
+       class="nav-icon"
+       aria-label="About"
+       data-label="About">
+      <i class="far fa-user" aria-hidden="true"></i>
+    </a>
+
+    <a href="skills.html"
+       class="nav-icon"
+       aria-label="Skills"
+       data-label="Skills">
+      <i class="fas fa-network-wired" aria-hidden="true"></i>
+    </a>
+
+    <a href="certificates.html"
+       class="nav-icon"
+       aria-label="Certificates"
+       data-label="Certificates">
+      <i class="fas fa-award" aria-hidden="true"></i>
+    </a>
+
+    <a href="projects.html"
+       class="nav-icon active"
+       aria-label="Projects"
+       aria-current="page"
+       data-label="Projects">
+      <i class="far fa-folder-open" aria-hidden="true"></i>
+    </a>
+
+    <a href="contact.html"
+       class="nav-icon"
+       aria-label="Contact"
+       data-label="Contact">
+      <i class="far fa-envelope" aria-hidden="true"></i>
+    </a>
+
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+
+    <p class="eyebrow">— 04 · Projects</p>
+
+    <h2 class="page-title">Featured Work.</h2>
+
+    <p class="lede" style="margin-bottom: 3rem; margin-top: 1.2rem;">
+      A collection of things I've built, broken, and learned from.
+      Each project represents a step in my journey as a developer.
+    </p>
+
+    <div class="projects-grid">
+
+      <!-- 1. NestWell.Bt -->
+      <a
+        href="https://github.com/AnxietySP/NestWell.Bt"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-card"
+        aria-label="Explore NestWell.Bt on GitHub"
+      >
+
+        <div class="project-image">
+          <img
+            src="pictures/NestWell.svg"
+            alt="NestWell.Bt project cover"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="project-content">
+
+          <div class="project-header">
+            <h3>NestWell.Bt</h3>
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+
+          <p class="project-desc">
+            A comprehensive web application project designed to provide
+            a seamless user experience.
+          </p>
+
+          <div class="project-tech">
+            <span>Web App</span>
+            <span>UI/UX</span>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- 2. Task APIs -->
+      <a
+        href="https://github.com/AnxietySP/Task-APIs"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-card"
+        aria-label="Explore Task APIs on GitHub"
+      >
+
+        <div class="project-image">
+          <img
+            src="pictures/TaskAPI.svg"
+            alt="Task API project cover showing API routes"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="project-content">
+
+          <div class="project-header">
+            <h3>Task APIs</h3>
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+
+          <p class="project-desc">
+            A backend development project focused on building RESTful
+            API endpoints, handling requests, and managing task data
+            using JavaScript and Express.js.
+          </p>
+
+          <div class="project-tech">
+            <span>JavaScript</span>
+            <span>Express.js</span>
+            <span>REST API</span>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- 3. Events Hub -->
+      <a
+        href="https://github.com/AnxietySP/events_hub"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-card"
+        aria-label="Explore Events Hub on GitHub"
+      >
+
+        <div class="project-image">
+          <img
+            src="pictures/EventsHub.svg"
+            alt="Events Hub project cover"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="project-content">
+
+          <div class="project-header">
+            <h3>Events Hub</h3>
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+
+          <p class="project-desc">
+            A college events website designed to help students discover,
+            explore, and keep track of upcoming college activities.
+          </p>
+
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- 4. Student Portfolio -->
+      <a
+        href="https://github.com/AnxietySP/student_portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-card"
+        aria-label="Explore Student Portfolio on GitHub"
+      >
+
+        <div class="project-image">
+          <img
+            src="pictures/Portfolio.svg"
+            alt="Student Portfolio project cover"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="project-content">
+
+          <div class="project-header">
+            <h3>Student Portfolio</h3>
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+
+          <p class="project-desc">
+            A personal portfolio website developed to showcase my
+            technical skills, projects, certificates, and academic journey.
+          </p>
+
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Closing Note -->
+    <div class="skills-footer" style="margin-top: 4rem;">
+      <p>
+        <i class="fas fa-code" aria-hidden="true"></i>
+        More projects and experiments are on the way.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Shared JavaScript -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
